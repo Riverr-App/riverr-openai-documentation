@@ -16,15 +16,15 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://someshwarpatil.github.io",
+  url: "https://Riverr-App.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/riverr-graphql-openapi/",
+  baseUrl: "/riverr-openai-documentation/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Riverr", // Usually your GitHub org/user name.
-  projectName: "riverr-graphql-openapi", // Usually your repo name.
+  organizationName: "Riverr-App", // Usually your GitHub org/user name.
+  projectName: "riverr-openai-documentation", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
