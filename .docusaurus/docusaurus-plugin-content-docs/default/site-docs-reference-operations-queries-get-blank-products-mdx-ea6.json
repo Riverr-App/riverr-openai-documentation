@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/queries/get-blank-products",
+  "title": "getBlankProducts",
+  "description": "Retrieve a list of available blank products (variants/details).",
+  "source": "@site/docs/reference/operations/queries/get-blank-products.mdx",
+  "sourceDirName": "reference/operations/queries",
+  "slug": "/reference/operations/queries/get-blank-products",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-blank-products",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/queries/get-blank-products.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "get-blank-products",
+    "title": "getBlankProducts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "getAllShops",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-all-shops"
+  },
+  "next": {
+    "title": "getOrder",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-order"
+  }
+}

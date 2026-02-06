@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/mutations/update-product",
+  "title": "updateProduct",
+  "description": "Update an existing product.",
+  "source": "@site/docs/reference/operations/mutations/update-product.mdx",
+  "sourceDirName": "reference/operations/mutations",
+  "slug": "/reference/operations/mutations/update-product",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-product",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/mutations/update-product.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "update-product",
+    "title": "updateProduct"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "updateOrder",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-order"
+  },
+  "next": {
+    "title": "updateShop",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-shop"
+  }
+}

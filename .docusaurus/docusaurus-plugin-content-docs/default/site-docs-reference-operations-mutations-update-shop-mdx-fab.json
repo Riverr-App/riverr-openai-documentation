@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/mutations/update-shop",
+  "title": "updateShop",
+  "description": "Update an existing shop's details.",
+  "source": "@site/docs/reference/operations/mutations/update-shop.mdx",
+  "sourceDirName": "reference/operations/mutations",
+  "slug": "/reference/operations/mutations/update-shop",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-shop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/mutations/update-shop.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "update-shop",
+    "title": "updateShop"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "updateProduct",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-product"
+  },
+  "next": {
+    "title": "getAllShops",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-all-shops"
+  }
+}

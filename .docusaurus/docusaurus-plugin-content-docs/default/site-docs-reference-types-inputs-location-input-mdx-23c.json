@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/location-input",
+  "title": "LocationInput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/location-input.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/location-input",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/location-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/location-input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "location-input",
+    "title": "LocationInput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ImageInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/image-input"
+  },
+  "next": {
+    "title": "OrderCreateInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/order-create-input"
+  }
+}

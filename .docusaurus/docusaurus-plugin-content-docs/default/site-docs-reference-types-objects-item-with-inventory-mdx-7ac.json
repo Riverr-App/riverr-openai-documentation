@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/item-with-inventory",
+  "title": "ItemWithInventory",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/item-with-inventory.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/item-with-inventory",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/item-with-inventory",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/item-with-inventory.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "item-with-inventory",
+    "title": "ItemWithInventory"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "InventoryVariant",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/inventory-variant"
+  },
+  "next": {
+    "title": "Item",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/item"
+  }
+}

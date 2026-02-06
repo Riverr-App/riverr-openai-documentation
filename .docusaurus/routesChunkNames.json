@@ -1,0 +1,398 @@
+{
+  "/riverr-openai-documentation/__docusaurus/debug-e03": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docusaurus-debugb-38-dcc"
+    }
+  },
+  "/riverr-openai-documentation/__docusaurus/debug/config-294": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docusaurus-debugb-38-dcc"
+    }
+  },
+  "/riverr-openai-documentation/__docusaurus/debug/content-d38": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docusaurus-debugb-38-dcc"
+    },
+    "__props": "__props---riverr-openai-documentation-docusaurus-debug-content-206-d42"
+  },
+  "/riverr-openai-documentation/__docusaurus/debug/globalData-969": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docusaurus-debugb-38-dcc"
+    }
+  },
+  "/riverr-openai-documentation/__docusaurus/debug/metadata-765": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docusaurus-debugb-38-dcc"
+    }
+  },
+  "/riverr-openai-documentation/__docusaurus/debug/registry-3f2": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docusaurus-debugb-38-dcc"
+    }
+  },
+  "/riverr-openai-documentation/__docusaurus/debug/routes-0b0": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docusaurus-debugb-38-dcc"
+    }
+  },
+  "/riverr-openai-documentation/docs-2e0": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---riverr-graphql-openapi-docsaba-217"
+    }
+  },
+  "/riverr-openai-documentation/docs-1d3": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---riverr-openai-documentation-docs-1-ae-b3d"
+  },
+  "/riverr-openai-documentation/docs-2e9": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/riverr-openai-documentation/docs/reference-f08": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-1-a-3-113"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/directives/include-ef7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-directives-includeabc-4fb"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/directives/skip-d89": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-directives-skipb-0-e-3d1"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/create-order-fc8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-create-orderfa-8-45e"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/create-product-c18": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-create-product-8-c-3-a69"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/create-shop-adf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-create-shop-64-e-aa7"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/delete-product-152": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-delete-productb-80-6f5"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/delete-shop-59c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-delete-shop-2-ed-0fd"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/update-order-b0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-update-orderce-3-b2e"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/update-product-485": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-update-product-4-ae-eac"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/mutations/update-shop-3be": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-mutations-update-shopfab-148"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-all-shops-7a9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-all-shops-44-e-518"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-blank-products-98a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-blank-productsea-6-e68"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-order-53f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-order-309-6fd"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-orders-b9b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-orders-37-c-d1e"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-product-cb5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-productf-4-f-7f6"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-products-464": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-productsac-9-e93"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-shipment-de9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-shipment-463-91a"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-shipments-b32": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-shipments-779-456"
+  },
+  "/riverr-openai-documentation/docs/reference/operations/queries/get-shop-96c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-operations-queries-get-shop-02-a-5d8"
+  },
+  "/riverr-openai-documentation/docs/reference/types/directives/deprecated-ed4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-directives-deprecated-8-c-8-749"
+  },
+  "/riverr-openai-documentation/docs/reference/types/directives/one-of-eb0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-directives-one-of-35-a-04c"
+  },
+  "/riverr-openai-documentation/docs/reference/types/directives/specified-by-fa4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-directives-specified-by-7-d-3-f2a"
+  },
+  "/riverr-openai-documentation/docs/reference/types/enums/filter-id-dac": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-enums-filter-id-49-b-bb5"
+  },
+  "/riverr-openai-documentation/docs/reference/types/enums/mapped-8a6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-enums-mappedeb-9-a80"
+  },
+  "/riverr-openai-documentation/docs/reference/types/enums/order-direction-17d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-enums-order-direction-910-768"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/address-input-df0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-address-inputdf-8-160"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/batch-rule-input-68e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-batch-rule-input-193-146"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/filter-input-aaf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-filter-inputcc-6-549"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/image-input-047": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-image-inputfa-1-ab6"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/location-input-faf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-location-input-23-c-de0"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/order-create-input-c96": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-order-create-inputff-7-223"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/order-item-input-0dd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-order-item-inputb-8-f-328"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/order-update-input-0b1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-order-update-input-4-c-9-dad"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/product-create-input-ecb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-product-create-inputc-82-5ed"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/product-update-input-aff": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-product-update-inputb-79-fca"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-country-ab3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-shipping-price-countryb-19-db5"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-input-485": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-shipping-price-input-30-f-16a"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/shipping-speed-input-97b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-shipping-speed-inputc-65-f78"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/shop-create-input-a2b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-shop-create-inputf-37-b93"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/shop-update-input-c0a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-shop-update-input-916-4c3"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/timestamp-input-57b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-timestamp-input-2-a-6-7eb"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/variant-input-f85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-variant-input-292-351"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/variant-mapping-input-135": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-variant-mapping-input-602-5c8"
+  },
+  "/riverr-openai-documentation/docs/reference/types/inputs/variant-property-input-c3f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-inputs-variant-property-inputf-6-d-e69"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/address-ec6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-address-301-f71"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/batch-e6c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-batch-1-e-1-07a"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/batch-item-7b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-batch-item-193-ea1"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/batch-rule-72b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-batch-rule-6-b-0-ff6"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/blank-product-982": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-blank-product-290-995"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/blank-product-category-202": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-blank-product-categoryad-1-fdb"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/blank-product-category-with-collection-6ec": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-blank-product-category-with-collection-3-d-7-644"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/blank-variant-502": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-blank-variant-304-233"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/blank-variant-detail-cfb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-blank-variant-detailbc-9-40f"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/blank-variant-image-753": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-blank-variant-image-399-565"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/filter-ceb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-filter-6-e-1-055"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/image-4bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-image-200-238"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/inventory-variant-d22": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-inventory-variant-341-112"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/item-269": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-itemd-53-a36"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/item-with-inventory-59c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-item-with-inventory-7-ac-61b"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/link-f75": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-linke-95-6e8"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/location-827": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-locationad-3-672"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/order-7c1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-orderda-9-796"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/order-item-025": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-order-item-8-fb-677"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/product-398": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-product-45-d-e6e"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/selected-shipping-speed-bef": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-selected-shipping-speedfb-6-802"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shipment-5b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shipmentf-7-c-2e7"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shipping-price-487": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shipping-price-93-a-d8f"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shipping-price-country-output-48c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shipping-price-country-output-9-ab-21a"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shipping-price-output-884": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shipping-price-outpute-3-f-e6e"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shipping-service-3d2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shipping-service-1-de-99b"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shipping-speed-084": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shipping-speed-189-57d"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shipping-upgrade-2bc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shipping-upgrade-0-a-7-d20"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/shop-7f8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-shop-9-ae-b81"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/stock-66e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-stock-64-d-541"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/timestamp-76b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-timestamp-2-f-8-a93"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/user-003": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-user-512-5dc"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/variant-fdd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-variant-0-ce-bd4"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/variant-mapping-f71": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-variant-mapping-04-b-4a4"
+  },
+  "/riverr-openai-documentation/docs/reference/types/objects/variant-property-901": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-objects-variant-propertye-71-772"
+  },
+  "/riverr-openai-documentation/docs/reference/types/scalars/boolean-74a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-scalars-boolean-40-e-de4"
+  },
+  "/riverr-openai-documentation/docs/reference/types/scalars/float-354": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-scalars-floatc-77-af0"
+  },
+  "/riverr-openai-documentation/docs/reference/types/scalars/id-17d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-scalars-id-239-00f"
+  },
+  "/riverr-openai-documentation/docs/reference/types/scalars/int-a6d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-scalars-int-00-b-002"
+  },
+  "/riverr-openai-documentation/docs/reference/types/scalars/string-3ce": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---riverr-graphql-openapi-docs-reference-types-scalars-string-402-a80"
+  }
+}

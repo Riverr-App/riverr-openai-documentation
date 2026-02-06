@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/mutations/create-order",
+  "title": "createOrder",
+  "description": "Create a new order.",
+  "source": "@site/docs/reference/operations/mutations/create-order.mdx",
+  "sourceDirName": "reference/operations/mutations",
+  "slug": "/reference/operations/mutations/create-order",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/create-order",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/mutations/create-order.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "create-order",
+    "title": "createOrder"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "skip",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/directives/skip"
+  },
+  "next": {
+    "title": "createProduct",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/create-product"
+  }
+}

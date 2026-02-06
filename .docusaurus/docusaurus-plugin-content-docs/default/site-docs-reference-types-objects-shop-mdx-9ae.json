@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/shop",
+  "title": "Shop",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/shop.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/shop",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/shop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/shop.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "shop",
+    "title": "Shop"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ShippingUpgrade",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/shipping-upgrade"
+  },
+  "next": {
+    "title": "Stock",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/stock"
+  }
+}

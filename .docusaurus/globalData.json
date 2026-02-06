@@ -1,0 +1,453 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/riverr-openai-documentation/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/riverr-openai-documentation/docs",
+          "mainDocId": "reference/index",
+          "docs": [
+            {
+              "id": "reference/index",
+              "path": "/riverr-openai-documentation/docs/reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/directives/include",
+              "path": "/riverr-openai-documentation/docs/reference/operations/directives/include",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/directives/skip",
+              "path": "/riverr-openai-documentation/docs/reference/operations/directives/skip",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/create-order",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/create-order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/create-product",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/create-product",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/create-shop",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/create-shop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/delete-product",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/delete-product",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/delete-shop",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/delete-shop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/update-order",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/update-order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/update-product",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/update-product",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/mutations/update-shop",
+              "path": "/riverr-openai-documentation/docs/reference/operations/mutations/update-shop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-all-shops",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-all-shops",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-blank-products",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-blank-products",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-order",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-orders",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-orders",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-product",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-product",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-products",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-products",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-shipment",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-shipment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-shipments",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-shipments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/operations/queries/get-shop",
+              "path": "/riverr-openai-documentation/docs/reference/operations/queries/get-shop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/directives/deprecated",
+              "path": "/riverr-openai-documentation/docs/reference/types/directives/deprecated",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/directives/one-of",
+              "path": "/riverr-openai-documentation/docs/reference/types/directives/one-of",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/directives/specified-by",
+              "path": "/riverr-openai-documentation/docs/reference/types/directives/specified-by",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/enums/filter-id",
+              "path": "/riverr-openai-documentation/docs/reference/types/enums/filter-id",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/enums/mapped",
+              "path": "/riverr-openai-documentation/docs/reference/types/enums/mapped",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/enums/order-direction",
+              "path": "/riverr-openai-documentation/docs/reference/types/enums/order-direction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/address-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/address-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/batch-rule-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/batch-rule-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/filter-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/filter-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/image-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/image-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/location-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/location-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/order-create-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/order-create-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/order-item-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/order-item-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/order-update-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/order-update-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/product-create-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/product-create-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/product-update-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/product-update-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/shipping-price-country",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-country",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/shipping-price-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/shipping-speed-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-speed-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/shop-create-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/shop-create-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/shop-update-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/shop-update-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/timestamp-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/timestamp-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/variant-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/variant-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/variant-mapping-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/variant-mapping-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/inputs/variant-property-input",
+              "path": "/riverr-openai-documentation/docs/reference/types/inputs/variant-property-input",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/address",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/address",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/batch",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/batch",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/batch-item",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/batch-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/batch-rule",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/batch-rule",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/blank-product",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/blank-product",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/blank-product-category",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/blank-product-category",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/blank-product-category-with-collection",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/blank-product-category-with-collection",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/blank-variant",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/blank-variant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/blank-variant-detail",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/blank-variant-detail",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/blank-variant-image",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/blank-variant-image",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/filter",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/filter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/image",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/image",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/inventory-variant",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/inventory-variant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/item",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/item-with-inventory",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/item-with-inventory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/link",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/link",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/location",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/location",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/order",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/order",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/order-item",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/order-item",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/product",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/product",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/selected-shipping-speed",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/selected-shipping-speed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shipment",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shipment",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shipping-price",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shipping-price",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shipping-price-country-output",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shipping-price-country-output",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shipping-price-output",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shipping-price-output",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shipping-service",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shipping-service",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shipping-speed",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shipping-speed",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shipping-upgrade",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shipping-upgrade",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/shop",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/shop",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/stock",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/stock",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/timestamp",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/timestamp",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/user",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/user",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/variant",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/variant",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/variant-mapping",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/variant-mapping",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/objects/variant-property",
+              "path": "/riverr-openai-documentation/docs/reference/types/objects/variant-property",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/scalars/boolean",
+              "path": "/riverr-openai-documentation/docs/reference/types/scalars/boolean",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/scalars/float",
+              "path": "/riverr-openai-documentation/docs/reference/types/scalars/float",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/scalars/id",
+              "path": "/riverr-openai-documentation/docs/reference/types/scalars/id",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/scalars/int",
+              "path": "/riverr-openai-documentation/docs/reference/types/scalars/int",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference/types/scalars/string",
+              "path": "/riverr-openai-documentation/docs/reference/types/scalars/string",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/riverr-openai-documentation/docs/reference",
+                "label": "GraphQL API Reference"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

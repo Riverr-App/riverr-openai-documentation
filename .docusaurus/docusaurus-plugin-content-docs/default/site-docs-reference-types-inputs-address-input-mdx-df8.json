@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/address-input",
+  "title": "AddressInput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/address-input.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/address-input",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/address-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/address-input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "address-input",
+    "title": "AddressInput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "OrderDirection",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/enums/order-direction"
+  },
+  "next": {
+    "title": "BatchRuleInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/batch-rule-input"
+  }
+}

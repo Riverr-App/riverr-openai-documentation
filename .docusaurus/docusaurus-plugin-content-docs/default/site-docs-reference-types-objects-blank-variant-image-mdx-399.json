@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/blank-variant-image",
+  "title": "BlankVariantImage",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/blank-variant-image.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/blank-variant-image",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/blank-variant-image",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/blank-variant-image.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "blank-variant-image",
+    "title": "BlankVariantImage"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BlankVariantDetail",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/blank-variant-detail"
+  },
+  "next": {
+    "title": "BlankVariant",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/blank-variant"
+  }
+}

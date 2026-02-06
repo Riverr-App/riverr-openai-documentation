@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/queries/get-shop",
+  "title": "getShop",
+  "description": "Retrieve a single shop by its ID.",
+  "source": "@site/docs/reference/operations/queries/get-shop.mdx",
+  "sourceDirName": "reference/operations/queries",
+  "slug": "/reference/operations/queries/get-shop",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-shop",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/queries/get-shop.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "get-shop",
+    "title": "getShop"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "getShipments",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-shipments"
+  },
+  "next": {
+    "title": "deprecated",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/directives/deprecated"
+  }
+}

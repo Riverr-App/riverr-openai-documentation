@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/filter",
+  "title": "Filter",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/filter.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/filter",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/filter",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/filter.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "filter",
+    "title": "Filter"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BlankVariant",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/blank-variant"
+  },
+  "next": {
+    "title": "Image",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/image"
+  }
+}

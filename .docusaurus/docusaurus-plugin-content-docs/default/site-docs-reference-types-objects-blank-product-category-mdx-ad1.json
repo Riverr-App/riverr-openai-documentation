@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/blank-product-category",
+  "title": "BlankProductCategory",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/blank-product-category.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/blank-product-category",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/blank-product-category",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/blank-product-category.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "blank-product-category",
+    "title": "BlankProductCategory"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "BlankProductCategoryWithCollection",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/blank-product-category-with-collection"
+  },
+  "next": {
+    "title": "BlankProduct",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/blank-product"
+  }
+}

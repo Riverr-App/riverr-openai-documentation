@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/shipping-price-country-output",
+  "title": "ShippingPriceCountryOutput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/shipping-price-country-output.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/shipping-price-country-output",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/shipping-price-country-output",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/shipping-price-country-output.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "shipping-price-country-output",
+    "title": "ShippingPriceCountryOutput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Shipment",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/shipment"
+  },
+  "next": {
+    "title": "ShippingPriceOutput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/shipping-price-output"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/address",
+  "title": "Address",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/address.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/address",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/address",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/address.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "address",
+    "title": "Address"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VariantPropertyInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/variant-property-input"
+  },
+  "next": {
+    "title": "BatchItem",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/batch-item"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/scalars/boolean",
+  "title": "Boolean",
+  "description": "The Boolean scalar type represents true or false.",
+  "source": "@site/docs/reference/types/scalars/boolean.mdx",
+  "sourceDirName": "reference/types/scalars",
+  "slug": "/reference/types/scalars/boolean",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/scalars/boolean",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/scalars/boolean.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "boolean",
+    "title": "Boolean"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Variant",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/variant"
+  },
+  "next": {
+    "title": "Float",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/scalars/float"
+  }
+}

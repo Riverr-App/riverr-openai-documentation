@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/order-item-input",
+  "title": "OrderItemInput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/order-item-input.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/order-item-input",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/order-item-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/order-item-input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "order-item-input",
+    "title": "OrderItemInput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "OrderCreateInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/order-create-input"
+  },
+  "next": {
+    "title": "OrderUpdateInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/order-update-input"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/product-update-input",
+  "title": "ProductUpdateInput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/product-update-input.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/product-update-input",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/product-update-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/product-update-input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "product-update-input",
+    "title": "ProductUpdateInput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductCreateInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/product-create-input"
+  },
+  "next": {
+    "title": "ShippingPriceCountry",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-country"
+  }
+}

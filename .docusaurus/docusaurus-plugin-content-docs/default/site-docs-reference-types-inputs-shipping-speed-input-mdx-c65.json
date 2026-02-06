@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/shipping-speed-input",
+  "title": "ShippingSpeedInput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/shipping-speed-input.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/shipping-speed-input",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-speed-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/shipping-speed-input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "shipping-speed-input",
+    "title": "ShippingSpeedInput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ShippingPriceInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-input"
+  },
+  "next": {
+    "title": "ShopCreateInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/shop-create-input"
+  }
+}

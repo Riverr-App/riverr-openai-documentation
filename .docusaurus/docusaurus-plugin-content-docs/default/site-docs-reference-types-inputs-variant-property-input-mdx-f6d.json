@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/variant-property-input",
+  "title": "VariantPropertyInput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/variant-property-input.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/variant-property-input",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/variant-property-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/variant-property-input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "variant-property-input",
+    "title": "VariantPropertyInput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VariantMappingInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/variant-mapping-input"
+  },
+  "next": {
+    "title": "Address",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/address"
+  }
+}

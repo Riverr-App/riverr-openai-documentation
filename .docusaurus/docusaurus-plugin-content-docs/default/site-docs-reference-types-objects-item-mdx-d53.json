@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/objects/item",
+  "title": "Item",
+  "description": "No description",
+  "source": "@site/docs/reference/types/objects/item.mdx",
+  "sourceDirName": "reference/types/objects",
+  "slug": "/reference/types/objects/item",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/objects/item",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/objects/item.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "item",
+    "title": "Item"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ItemWithInventory",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/item-with-inventory"
+  },
+  "next": {
+    "title": "Link",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/objects/link"
+  }
+}

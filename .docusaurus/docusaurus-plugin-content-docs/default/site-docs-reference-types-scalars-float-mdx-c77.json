@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/scalars/float",
+  "title": "Float",
+  "description": "The Float scalar type represents signed double-precision fractional values as specified by IEEE 754.",
+  "source": "@site/docs/reference/types/scalars/float.mdx",
+  "sourceDirName": "reference/types/scalars",
+  "slug": "/reference/types/scalars/float",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/scalars/float",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/scalars/float.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "float",
+    "title": "Float"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Boolean",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/scalars/boolean"
+  },
+  "next": {
+    "title": "ID",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/scalars/id"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/queries/get-all-shops",
+  "title": "getAllShops",
+  "description": "Retrieve all shops associated with the current enterprise.",
+  "source": "@site/docs/reference/operations/queries/get-all-shops.mdx",
+  "sourceDirName": "reference/operations/queries",
+  "slug": "/reference/operations/queries/get-all-shops",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-all-shops",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/queries/get-all-shops.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "get-all-shops",
+    "title": "getAllShops"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "updateShop",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-shop"
+  },
+  "next": {
+    "title": "getBlankProducts",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-blank-products"
+  }
+}

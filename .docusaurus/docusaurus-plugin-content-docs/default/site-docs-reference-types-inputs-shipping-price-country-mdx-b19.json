@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/shipping-price-country",
+  "title": "ShippingPriceCountry",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/shipping-price-country.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/shipping-price-country",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-country",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/shipping-price-country.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "shipping-price-country",
+    "title": "ShippingPriceCountry"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ProductUpdateInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/product-update-input"
+  },
+  "next": {
+    "title": "ShippingPriceInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/shipping-price-input"
+  }
+}

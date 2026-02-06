@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/directives/include",
+  "title": "include",
+  "description": "Directs the executor to include this field or fragment only when the if argument is true.",
+  "source": "@site/docs/reference/operations/directives/include.mdx",
+  "sourceDirName": "reference/operations/directives",
+  "slug": "/reference/operations/directives/include",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/directives/include",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/directives/include.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "include",
+    "title": "include"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "GraphQL API Reference",
+    "permalink": "/riverr-openai-documentation/docs/reference"
+  },
+  "next": {
+    "title": "skip",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/directives/skip"
+  }
+}

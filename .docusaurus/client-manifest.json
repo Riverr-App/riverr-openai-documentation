@@ -1,0 +1,1229 @@
+{
+  "entrypoints": [
+    "main"
+  ],
+  "origins": {
+    "2237": [
+      2237
+    ],
+    "2285": [
+      1869,
+      6061,
+      8401,
+      2285
+    ],
+    "17896441": [
+      1869,
+      2285,
+      8401
+    ],
+    "23916621": [
+      5491
+    ],
+    "30192711": [
+      6147
+    ],
+    "30902882": [
+      1453
+    ],
+    "main": [
+      1869,
+      5354,
+      8792
+    ],
+    "runtime~main": [
+      1869,
+      8792,
+      5354
+    ],
+    "00b702ee": [
+      6322
+    ],
+    "02af6c73": [
+      6539
+    ],
+    "04b0078c": [
+      7941
+    ],
+    "0a7c7b86": [
+      7437
+    ],
+    "0ce7cf2c": [
+      7146
+    ],
+    "1894c7fe": [
+      3818
+    ],
+    "193a5df2": [
+      9738
+    ],
+    "193d12ef": [
+      3540
+    ],
+    "1a3c9b31": [
+      9242
+    ],
+    "1ae5f6e8": [
+      2308
+    ],
+    "1de4a21d": [
+      1985
+    ],
+    "1df93b7f": [
+      1869,
+      4583
+    ],
+    "1e1f11e4": [
+      1549
+    ],
+    "1f391b9e": [
+      1869,
+      2285,
+      6061
+    ],
+    "200046e3": [
+      6131
+    ],
+    "23ceaeb4": [
+      6838
+    ],
+    "290ba60d": [
+      8387
+    ],
+    "29211da1": [
+      1326
+    ],
+    "2a645ebd": [
+      8782
+    ],
+    "2ed9ba70": [
+      4759
+    ],
+    "2f887cab": [
+      8900
+    ],
+    "304c420d": [
+      7751
+    ],
+    "30fcda9a": [
+      5536
+    ],
+    "3413b18d": [
+      633
+    ],
+    "35aa7fc0": [
+      8347
+    ],
+    "37c3df0b": [
+      3703
+    ],
+    "393be207": [
+      4134
+    ],
+    "3990abf5": [
+      8546
+    ],
+    "3d7abf99": [
+      1488
+    ],
+    "4022851e": [
+      8876
+    ],
+    "40e792eb": [
+      6963
+    ],
+    "44ed26eb": [
+      8073
+    ],
+    "45d0f280": [
+      4874
+    ],
+    "4633bb40": [
+      6107
+    ],
+    "49b845f9": [
+      9282
+    ],
+    "4ae28ed3": [
+      2673
+    ],
+    "4c979cb1": [
+      3187
+    ],
+    "512da28e": [
+      3451
+    ],
+    "5e95c892": [
+      9647
+    ],
+    "602d4251": [
+      7011
+    ],
+    "64df80c0": [
+      4922
+    ],
+    "64e90a12": [
+      3987
+    ],
+    "6b0b1431": [
+      6926
+    ],
+    "6e14eda2": [
+      9809
+    ],
+    "779ba7eb": [
+      4269
+    ],
+    "7ac46406": [
+      6574
+    ],
+    "7d333bb9": [
+      3244
+    ],
+    "8c34874b": [
+      5048
+    ],
+    "8c863f33": [
+      9435
+    ],
+    "8fbccb07": [
+      3348
+    ],
+    "910fd24b": [
+      4739
+    ],
+    "91646ea4": [
+      1595
+    ],
+    "93a2360a": [
+      3188
+    ],
+    "9abd7c96": [
+      5264
+    ],
+    "9ae31fe3": [
+      3592
+    ],
+    "a7456010": [
+      1235
+    ],
+    "a7bd4aaa": [
+      7098
+    ],
+    "a94703ab": [
+      1869,
+      9048
+    ],
+    "aba21aa0": [
+      5742
+    ],
+    "abc650e4": [
+      8393
+    ],
+    "ac9609da": [
+      7398
+    ],
+    "ad1b7a7b": [
+      6954
+    ],
+    "ad3a7fe7": [
+      7819
+    ],
+    "b0e7bd04": [
+      6875
+    ],
+    "b198793b": [
+      456
+    ],
+    "b7900d13": [
+      3389
+    ],
+    "b8099713": [
+      7872
+    ],
+    "b8f1a6c1": [
+      3367
+    ],
+    "bc9b9916": [
+      5224
+    ],
+    "c6584573": [
+      2752
+    ],
+    "c77aad34": [
+      8203
+    ],
+    "c82d64ef": [
+      6747
+    ],
+    "cc67a7a6": [
+      9937
+    ],
+    "ce37191b": [
+      3642
+    ],
+    "d5359fc4": [
+      3222
+    ],
+    "da920734": [
+      4037
+    ],
+    "df8b6897": [
+      1
+    ],
+    "e3ff18e0": [
+      8303
+    ],
+    "e719b43d": [
+      9018
+    ],
+    "e95f9a63": [
+      7607
+    ],
+    "ea6207a4": [
+      6121
+    ],
+    "eb9a8fb8": [
+      9092
+    ],
+    "f37d66b0": [
+      189
+    ],
+    "f4fb7021": [
+      7659
+    ],
+    "f6d4b60c": [
+      2704
+    ],
+    "f7c8893e": [
+      8290
+    ],
+    "fa199de2": [
+      904
+    ],
+    "fa8e927c": [
+      22
+    ],
+    "fab6dbf4": [
+      8072
+    ],
+    "fb69806d": [
+      5178
+    ],
+    "ff755e98": [
+      5774
+    ],
+    "styles": [
+      2285,
+      4583,
+      5354,
+      6061,
+      8401,
+      8792,
+      9048,
+      1869
+    ]
+  },
+  "assets": {
+    "1": {
+      "js": [
+        {
+          "file": "assets/js/df8b6897.b54a94d0.js",
+          "hash": "4e34a9c3cb98a7db",
+          "publicPath": "/riverr-openai-documentation/assets/js/df8b6897.b54a94d0.js"
+        }
+      ]
+    },
+    "22": {
+      "js": [
+        {
+          "file": "assets/js/fa8e927c.0d7913d9.js",
+          "hash": "c3f7bdd084dea5b0",
+          "publicPath": "/riverr-openai-documentation/assets/js/fa8e927c.0d7913d9.js"
+        }
+      ]
+    },
+    "189": {
+      "js": [
+        {
+          "file": "assets/js/f37d66b0.53365c01.js",
+          "hash": "9ed19f4d0788184e",
+          "publicPath": "/riverr-openai-documentation/assets/js/f37d66b0.53365c01.js"
+        }
+      ]
+    },
+    "456": {
+      "js": [
+        {
+          "file": "assets/js/b198793b.d9bf02f7.js",
+          "hash": "90fea1ceac4a8d4f",
+          "publicPath": "/riverr-openai-documentation/assets/js/b198793b.d9bf02f7.js"
+        }
+      ]
+    },
+    "633": {
+      "js": [
+        {
+          "file": "assets/js/3413b18d.a67cbab3.js",
+          "hash": "b2be240907398680",
+          "publicPath": "/riverr-openai-documentation/assets/js/3413b18d.a67cbab3.js"
+        }
+      ]
+    },
+    "904": {
+      "js": [
+        {
+          "file": "assets/js/fa199de2.1e170016.js",
+          "hash": "aff0e7d8b96674ad",
+          "publicPath": "/riverr-openai-documentation/assets/js/fa199de2.1e170016.js"
+        }
+      ]
+    },
+    "1235": {
+      "js": [
+        {
+          "file": "assets/js/a7456010.b2f47af4.js",
+          "hash": "5c6e1cb773ac73de",
+          "publicPath": "/riverr-openai-documentation/assets/js/a7456010.b2f47af4.js"
+        }
+      ]
+    },
+    "1326": {
+      "js": [
+        {
+          "file": "assets/js/29211da1.0169d1e4.js",
+          "hash": "311ddde4eeb2b04c",
+          "publicPath": "/riverr-openai-documentation/assets/js/29211da1.0169d1e4.js"
+        }
+      ]
+    },
+    "1453": {
+      "js": [
+        {
+          "file": "assets/js/30902882.29710974.js",
+          "hash": "939a1c06896b2353",
+          "publicPath": "/riverr-openai-documentation/assets/js/30902882.29710974.js"
+        }
+      ]
+    },
+    "1488": {
+      "js": [
+        {
+          "file": "assets/js/3d7abf99.9b597c58.js",
+          "hash": "48aae3b54b521fc6",
+          "publicPath": "/riverr-openai-documentation/assets/js/3d7abf99.9b597c58.js"
+        }
+      ]
+    },
+    "1549": {
+      "js": [
+        {
+          "file": "assets/js/1e1f11e4.def2b29a.js",
+          "hash": "e7dc04fbf07d7763",
+          "publicPath": "/riverr-openai-documentation/assets/js/1e1f11e4.def2b29a.js"
+        }
+      ]
+    },
+    "1595": {
+      "js": [
+        {
+          "file": "assets/js/91646ea4.b05b0987.js",
+          "hash": "8edbfda66576f2fa",
+          "publicPath": "/riverr-openai-documentation/assets/js/91646ea4.b05b0987.js"
+        }
+      ]
+    },
+    "1869": {
+      "css": [
+        {
+          "file": "assets/css/styles.1a7e526c.css",
+          "hash": "bef0a1d2f7dfe0cb",
+          "publicPath": "/riverr-openai-documentation/assets/css/styles.1a7e526c.css"
+        }
+      ]
+    },
+    "1985": {
+      "js": [
+        {
+          "file": "assets/js/1de4a21d.5b14758d.js",
+          "hash": "129a29f73f289b4b",
+          "publicPath": "/riverr-openai-documentation/assets/js/1de4a21d.5b14758d.js"
+        }
+      ]
+    },
+    "2237": {
+      "js": [
+        {
+          "file": "assets/js/2237.0e05ca8c.js",
+          "hash": "6de4929f43c0007b",
+          "publicPath": "/riverr-openai-documentation/assets/js/2237.0e05ca8c.js"
+        }
+      ]
+    },
+    "2285": {
+      "js": [
+        {
+          "file": "assets/js/2285.234bf03b.js",
+          "hash": "ea7474f7d8443ca8",
+          "publicPath": "/riverr-openai-documentation/assets/js/2285.234bf03b.js"
+        }
+      ]
+    },
+    "2308": {
+      "js": [
+        {
+          "file": "assets/js/1ae5f6e8.f3a2051e.js",
+          "hash": "bb8ed0e12ca19db6",
+          "publicPath": "/riverr-openai-documentation/assets/js/1ae5f6e8.f3a2051e.js"
+        }
+      ]
+    },
+    "2673": {
+      "js": [
+        {
+          "file": "assets/js/4ae28ed3.303777d2.js",
+          "hash": "325bba12160099d4",
+          "publicPath": "/riverr-openai-documentation/assets/js/4ae28ed3.303777d2.js"
+        }
+      ]
+    },
+    "2704": {
+      "js": [
+        {
+          "file": "assets/js/f6d4b60c.af544a47.js",
+          "hash": "bd6595845e39551a",
+          "publicPath": "/riverr-openai-documentation/assets/js/f6d4b60c.af544a47.js"
+        }
+      ]
+    },
+    "2752": {
+      "js": [
+        {
+          "file": "assets/js/c6584573.8ad0e9eb.js",
+          "hash": "bd8c15abff9b5fc8",
+          "publicPath": "/riverr-openai-documentation/assets/js/c6584573.8ad0e9eb.js"
+        }
+      ]
+    },
+    "3187": {
+      "js": [
+        {
+          "file": "assets/js/4c979cb1.7650ed2e.js",
+          "hash": "5e9b3411e45025b4",
+          "publicPath": "/riverr-openai-documentation/assets/js/4c979cb1.7650ed2e.js"
+        }
+      ]
+    },
+    "3188": {
+      "js": [
+        {
+          "file": "assets/js/93a2360a.296f0e5d.js",
+          "hash": "56991a418fcf4f3d",
+          "publicPath": "/riverr-openai-documentation/assets/js/93a2360a.296f0e5d.js"
+        }
+      ]
+    },
+    "3222": {
+      "js": [
+        {
+          "file": "assets/js/d5359fc4.ec1c4230.js",
+          "hash": "cce549f4bc001b0e",
+          "publicPath": "/riverr-openai-documentation/assets/js/d5359fc4.ec1c4230.js"
+        }
+      ]
+    },
+    "3244": {
+      "js": [
+        {
+          "file": "assets/js/7d333bb9.6209b97f.js",
+          "hash": "11fc3ec3ca986404",
+          "publicPath": "/riverr-openai-documentation/assets/js/7d333bb9.6209b97f.js"
+        }
+      ]
+    },
+    "3348": {
+      "js": [
+        {
+          "file": "assets/js/8fbccb07.9fe4beaa.js",
+          "hash": "80ce43301899b7a4",
+          "publicPath": "/riverr-openai-documentation/assets/js/8fbccb07.9fe4beaa.js"
+        }
+      ]
+    },
+    "3367": {
+      "js": [
+        {
+          "file": "assets/js/b8f1a6c1.e3bb315f.js",
+          "hash": "d3ca9836b532e862",
+          "publicPath": "/riverr-openai-documentation/assets/js/b8f1a6c1.e3bb315f.js"
+        }
+      ]
+    },
+    "3389": {
+      "js": [
+        {
+          "file": "assets/js/b7900d13.6767b040.js",
+          "hash": "fe43484248b0d5d9",
+          "publicPath": "/riverr-openai-documentation/assets/js/b7900d13.6767b040.js"
+        }
+      ]
+    },
+    "3451": {
+      "js": [
+        {
+          "file": "assets/js/512da28e.eb4b120b.js",
+          "hash": "4c8c2e21ee327ed5",
+          "publicPath": "/riverr-openai-documentation/assets/js/512da28e.eb4b120b.js"
+        }
+      ]
+    },
+    "3540": {
+      "js": [
+        {
+          "file": "assets/js/193d12ef.9c4becde.js",
+          "hash": "ad9e5af1fa5a02bd",
+          "publicPath": "/riverr-openai-documentation/assets/js/193d12ef.9c4becde.js"
+        }
+      ]
+    },
+    "3592": {
+      "js": [
+        {
+          "file": "assets/js/9ae31fe3.6a08a123.js",
+          "hash": "78ff8d0d42bc1f13",
+          "publicPath": "/riverr-openai-documentation/assets/js/9ae31fe3.6a08a123.js"
+        }
+      ]
+    },
+    "3642": {
+      "js": [
+        {
+          "file": "assets/js/ce37191b.470361fa.js",
+          "hash": "fcd6a1dacc269812",
+          "publicPath": "/riverr-openai-documentation/assets/js/ce37191b.470361fa.js"
+        }
+      ]
+    },
+    "3703": {
+      "js": [
+        {
+          "file": "assets/js/37c3df0b.a09e993f.js",
+          "hash": "be328d92cd55ec19",
+          "publicPath": "/riverr-openai-documentation/assets/js/37c3df0b.a09e993f.js"
+        }
+      ]
+    },
+    "3818": {
+      "js": [
+        {
+          "file": "assets/js/1894c7fe.d3bc21c3.js",
+          "hash": "972a78c07d0827bc",
+          "publicPath": "/riverr-openai-documentation/assets/js/1894c7fe.d3bc21c3.js"
+        }
+      ]
+    },
+    "3987": {
+      "js": [
+        {
+          "file": "assets/js/64e90a12.1a08780e.js",
+          "hash": "1cf2a8f00263e343",
+          "publicPath": "/riverr-openai-documentation/assets/js/64e90a12.1a08780e.js"
+        }
+      ]
+    },
+    "4037": {
+      "js": [
+        {
+          "file": "assets/js/da920734.b213b5a7.js",
+          "hash": "6e4039551ec359d7",
+          "publicPath": "/riverr-openai-documentation/assets/js/da920734.b213b5a7.js"
+        }
+      ]
+    },
+    "4134": {
+      "js": [
+        {
+          "file": "assets/js/393be207.dca3d061.js",
+          "hash": "f188ac7c7ad02398",
+          "publicPath": "/riverr-openai-documentation/assets/js/393be207.dca3d061.js"
+        }
+      ]
+    },
+    "4269": {
+      "js": [
+        {
+          "file": "assets/js/779ba7eb.7ddf7576.js",
+          "hash": "23371db1d8a89b88",
+          "publicPath": "/riverr-openai-documentation/assets/js/779ba7eb.7ddf7576.js"
+        }
+      ]
+    },
+    "4583": {
+      "js": [
+        {
+          "file": "assets/js/1df93b7f.3ee9e329.js",
+          "hash": "5c3332dbe1f979f4",
+          "publicPath": "/riverr-openai-documentation/assets/js/1df93b7f.3ee9e329.js"
+        }
+      ]
+    },
+    "4739": {
+      "js": [
+        {
+          "file": "assets/js/910fd24b.f244a3a5.js",
+          "hash": "15249b719eeb13c2",
+          "publicPath": "/riverr-openai-documentation/assets/js/910fd24b.f244a3a5.js"
+        }
+      ]
+    },
+    "4759": {
+      "js": [
+        {
+          "file": "assets/js/2ed9ba70.7c5205b6.js",
+          "hash": "714ec5feb8f9fbed",
+          "publicPath": "/riverr-openai-documentation/assets/js/2ed9ba70.7c5205b6.js"
+        }
+      ]
+    },
+    "4874": {
+      "js": [
+        {
+          "file": "assets/js/45d0f280.278cbe10.js",
+          "hash": "7b3a81c31ad2ed2b",
+          "publicPath": "/riverr-openai-documentation/assets/js/45d0f280.278cbe10.js"
+        }
+      ]
+    },
+    "4922": {
+      "js": [
+        {
+          "file": "assets/js/64df80c0.41c76cf1.js",
+          "hash": "d578515539d43c8f",
+          "publicPath": "/riverr-openai-documentation/assets/js/64df80c0.41c76cf1.js"
+        }
+      ]
+    },
+    "5048": {
+      "js": [
+        {
+          "file": "assets/js/8c34874b.5de5eab1.js",
+          "hash": "734b76686ac2f17b",
+          "publicPath": "/riverr-openai-documentation/assets/js/8c34874b.5de5eab1.js"
+        }
+      ]
+    },
+    "5178": {
+      "js": [
+        {
+          "file": "assets/js/fb69806d.1dac4bc4.js",
+          "hash": "aa489b46b028c72d",
+          "publicPath": "/riverr-openai-documentation/assets/js/fb69806d.1dac4bc4.js"
+        }
+      ]
+    },
+    "5224": {
+      "js": [
+        {
+          "file": "assets/js/bc9b9916.f05c0101.js",
+          "hash": "280b67d9e4ccc7fa",
+          "publicPath": "/riverr-openai-documentation/assets/js/bc9b9916.f05c0101.js"
+        }
+      ]
+    },
+    "5264": {
+      "js": [
+        {
+          "file": "assets/js/9abd7c96.fce56bed.js",
+          "hash": "ec1f2a8b3bba946a",
+          "publicPath": "/riverr-openai-documentation/assets/js/9abd7c96.fce56bed.js"
+        }
+      ]
+    },
+    "5354": {
+      "js": [
+        {
+          "file": "assets/js/runtime~main.db4ee5f3.js",
+          "hash": "8e01b832891a48d6",
+          "publicPath": "/riverr-openai-documentation/assets/js/runtime~main.db4ee5f3.js"
+        }
+      ]
+    },
+    "5491": {
+      "js": [
+        {
+          "file": "assets/js/23916621.e299c78a.js",
+          "hash": "4d137cc620847df6",
+          "publicPath": "/riverr-openai-documentation/assets/js/23916621.e299c78a.js"
+        }
+      ]
+    },
+    "5536": {
+      "js": [
+        {
+          "file": "assets/js/30fcda9a.753078c7.js",
+          "hash": "50dfda1054e0f406",
+          "publicPath": "/riverr-openai-documentation/assets/js/30fcda9a.753078c7.js"
+        }
+      ]
+    },
+    "5742": {
+      "js": [
+        {
+          "file": "assets/js/aba21aa0.688df7b7.js",
+          "hash": "af7855f1c960880b",
+          "publicPath": "/riverr-openai-documentation/assets/js/aba21aa0.688df7b7.js"
+        }
+      ]
+    },
+    "5774": {
+      "js": [
+        {
+          "file": "assets/js/ff755e98.4f7755c3.js",
+          "hash": "0443fdfd0f5f1593",
+          "publicPath": "/riverr-openai-documentation/assets/js/ff755e98.4f7755c3.js"
+        }
+      ]
+    },
+    "6061": {
+      "js": [
+        {
+          "file": "assets/js/1f391b9e.fcc259ec.js",
+          "hash": "32840cdb44f4dede",
+          "publicPath": "/riverr-openai-documentation/assets/js/1f391b9e.fcc259ec.js"
+        }
+      ]
+    },
+    "6107": {
+      "js": [
+        {
+          "file": "assets/js/4633bb40.d5f5ac7f.js",
+          "hash": "1890ef363ea3bc84",
+          "publicPath": "/riverr-openai-documentation/assets/js/4633bb40.d5f5ac7f.js"
+        }
+      ]
+    },
+    "6121": {
+      "js": [
+        {
+          "file": "assets/js/ea6207a4.41ddba98.js",
+          "hash": "54f6d5d30a2356b9",
+          "publicPath": "/riverr-openai-documentation/assets/js/ea6207a4.41ddba98.js"
+        }
+      ]
+    },
+    "6131": {
+      "js": [
+        {
+          "file": "assets/js/200046e3.e151c16f.js",
+          "hash": "7c04d3823aa33818",
+          "publicPath": "/riverr-openai-documentation/assets/js/200046e3.e151c16f.js"
+        }
+      ]
+    },
+    "6147": {
+      "js": [
+        {
+          "file": "assets/js/30192711.f616e27e.js",
+          "hash": "92acc0baad50efb7",
+          "publicPath": "/riverr-openai-documentation/assets/js/30192711.f616e27e.js"
+        }
+      ]
+    },
+    "6322": {
+      "js": [
+        {
+          "file": "assets/js/00b702ee.e11af993.js",
+          "hash": "36602922514e9717",
+          "publicPath": "/riverr-openai-documentation/assets/js/00b702ee.e11af993.js"
+        }
+      ]
+    },
+    "6539": {
+      "js": [
+        {
+          "file": "assets/js/02af6c73.17230f53.js",
+          "hash": "fbc655da7a84af89",
+          "publicPath": "/riverr-openai-documentation/assets/js/02af6c73.17230f53.js"
+        }
+      ]
+    },
+    "6574": {
+      "js": [
+        {
+          "file": "assets/js/7ac46406.94381205.js",
+          "hash": "0862b8d21bce6310",
+          "publicPath": "/riverr-openai-documentation/assets/js/7ac46406.94381205.js"
+        }
+      ]
+    },
+    "6747": {
+      "js": [
+        {
+          "file": "assets/js/c82d64ef.85d5f40c.js",
+          "hash": "9573f15a8c1eb067",
+          "publicPath": "/riverr-openai-documentation/assets/js/c82d64ef.85d5f40c.js"
+        }
+      ]
+    },
+    "6838": {
+      "js": [
+        {
+          "file": "assets/js/23ceaeb4.732437cc.js",
+          "hash": "319afb3a3a352edf",
+          "publicPath": "/riverr-openai-documentation/assets/js/23ceaeb4.732437cc.js"
+        }
+      ]
+    },
+    "6875": {
+      "js": [
+        {
+          "file": "assets/js/b0e7bd04.4b2b4d7c.js",
+          "hash": "750a4660453c8d20",
+          "publicPath": "/riverr-openai-documentation/assets/js/b0e7bd04.4b2b4d7c.js"
+        }
+      ]
+    },
+    "6926": {
+      "js": [
+        {
+          "file": "assets/js/6b0b1431.eeb6910c.js",
+          "hash": "d5a0ec47693da4ff",
+          "publicPath": "/riverr-openai-documentation/assets/js/6b0b1431.eeb6910c.js"
+        }
+      ]
+    },
+    "6954": {
+      "js": [
+        {
+          "file": "assets/js/ad1b7a7b.4d3b0940.js",
+          "hash": "9280c62467ae511d",
+          "publicPath": "/riverr-openai-documentation/assets/js/ad1b7a7b.4d3b0940.js"
+        }
+      ]
+    },
+    "6963": {
+      "js": [
+        {
+          "file": "assets/js/40e792eb.a3e9be64.js",
+          "hash": "b3e42176e5d1f231",
+          "publicPath": "/riverr-openai-documentation/assets/js/40e792eb.a3e9be64.js"
+        }
+      ]
+    },
+    "7011": {
+      "js": [
+        {
+          "file": "assets/js/602d4251.69e45247.js",
+          "hash": "a82cca1b24dd4f11",
+          "publicPath": "/riverr-openai-documentation/assets/js/602d4251.69e45247.js"
+        }
+      ]
+    },
+    "7098": {
+      "js": [
+        {
+          "file": "assets/js/a7bd4aaa.12d8d1fd.js",
+          "hash": "960b497457281021",
+          "publicPath": "/riverr-openai-documentation/assets/js/a7bd4aaa.12d8d1fd.js"
+        }
+      ]
+    },
+    "7146": {
+      "js": [
+        {
+          "file": "assets/js/0ce7cf2c.d1b95409.js",
+          "hash": "e6115dd6e4c73853",
+          "publicPath": "/riverr-openai-documentation/assets/js/0ce7cf2c.d1b95409.js"
+        }
+      ]
+    },
+    "7398": {
+      "js": [
+        {
+          "file": "assets/js/ac9609da.023294bc.js",
+          "hash": "bec9f533e067cbb1",
+          "publicPath": "/riverr-openai-documentation/assets/js/ac9609da.023294bc.js"
+        }
+      ]
+    },
+    "7437": {
+      "js": [
+        {
+          "file": "assets/js/0a7c7b86.0e3d1766.js",
+          "hash": "09a238fcec2cf19f",
+          "publicPath": "/riverr-openai-documentation/assets/js/0a7c7b86.0e3d1766.js"
+        }
+      ]
+    },
+    "7607": {
+      "js": [
+        {
+          "file": "assets/js/e95f9a63.7696317c.js",
+          "hash": "a0b7f8dcb866f177",
+          "publicPath": "/riverr-openai-documentation/assets/js/e95f9a63.7696317c.js"
+        }
+      ]
+    },
+    "7659": {
+      "js": [
+        {
+          "file": "assets/js/f4fb7021.72b186a2.js",
+          "hash": "76816158f089a15c",
+          "publicPath": "/riverr-openai-documentation/assets/js/f4fb7021.72b186a2.js"
+        }
+      ]
+    },
+    "7751": {
+      "js": [
+        {
+          "file": "assets/js/304c420d.e4ffeab5.js",
+          "hash": "c41c5e35801af54d",
+          "publicPath": "/riverr-openai-documentation/assets/js/304c420d.e4ffeab5.js"
+        }
+      ]
+    },
+    "7819": {
+      "js": [
+        {
+          "file": "assets/js/ad3a7fe7.fe503bc8.js",
+          "hash": "3640c4621f9dd2c1",
+          "publicPath": "/riverr-openai-documentation/assets/js/ad3a7fe7.fe503bc8.js"
+        }
+      ]
+    },
+    "7872": {
+      "js": [
+        {
+          "file": "assets/js/b8099713.f797f62b.js",
+          "hash": "6aeb61a1440e7aa5",
+          "publicPath": "/riverr-openai-documentation/assets/js/b8099713.f797f62b.js"
+        }
+      ]
+    },
+    "7941": {
+      "js": [
+        {
+          "file": "assets/js/04b0078c.adf14f95.js",
+          "hash": "f7a93f4270c4d1e8",
+          "publicPath": "/riverr-openai-documentation/assets/js/04b0078c.adf14f95.js"
+        }
+      ]
+    },
+    "8072": {
+      "js": [
+        {
+          "file": "assets/js/fab6dbf4.7c7312ef.js",
+          "hash": "a9b1d2f7b94de0e9",
+          "publicPath": "/riverr-openai-documentation/assets/js/fab6dbf4.7c7312ef.js"
+        }
+      ]
+    },
+    "8073": {
+      "js": [
+        {
+          "file": "assets/js/44ed26eb.5e0ac073.js",
+          "hash": "591dc6d37dcd0b09",
+          "publicPath": "/riverr-openai-documentation/assets/js/44ed26eb.5e0ac073.js"
+        }
+      ]
+    },
+    "8203": {
+      "js": [
+        {
+          "file": "assets/js/c77aad34.fdb6bd13.js",
+          "hash": "530b560416d370cc",
+          "publicPath": "/riverr-openai-documentation/assets/js/c77aad34.fdb6bd13.js"
+        }
+      ]
+    },
+    "8290": {
+      "js": [
+        {
+          "file": "assets/js/f7c8893e.976b825f.js",
+          "hash": "718d734198e1a890",
+          "publicPath": "/riverr-openai-documentation/assets/js/f7c8893e.976b825f.js"
+        }
+      ]
+    },
+    "8303": {
+      "js": [
+        {
+          "file": "assets/js/e3ff18e0.9d4f609c.js",
+          "hash": "1b0ab1a35d8dca0e",
+          "publicPath": "/riverr-openai-documentation/assets/js/e3ff18e0.9d4f609c.js"
+        }
+      ]
+    },
+    "8347": {
+      "js": [
+        {
+          "file": "assets/js/35aa7fc0.00f49b86.js",
+          "hash": "5693c04a3a4cedd4",
+          "publicPath": "/riverr-openai-documentation/assets/js/35aa7fc0.00f49b86.js"
+        }
+      ]
+    },
+    "8387": {
+      "js": [
+        {
+          "file": "assets/js/290ba60d.6b70c643.js",
+          "hash": "7d594336496aacba",
+          "publicPath": "/riverr-openai-documentation/assets/js/290ba60d.6b70c643.js"
+        }
+      ]
+    },
+    "8393": {
+      "js": [
+        {
+          "file": "assets/js/abc650e4.7e08038a.js",
+          "hash": "704995477a7fed62",
+          "publicPath": "/riverr-openai-documentation/assets/js/abc650e4.7e08038a.js"
+        }
+      ]
+    },
+    "8401": {
+      "js": [
+        {
+          "file": "assets/js/17896441.79908fc7.js",
+          "hash": "fcf6b6f52603f96c",
+          "publicPath": "/riverr-openai-documentation/assets/js/17896441.79908fc7.js"
+        }
+      ]
+    },
+    "8546": {
+      "js": [
+        {
+          "file": "assets/js/3990abf5.f436c44c.js",
+          "hash": "52f829a1d0b07f0c",
+          "publicPath": "/riverr-openai-documentation/assets/js/3990abf5.f436c44c.js"
+        }
+      ]
+    },
+    "8782": {
+      "js": [
+        {
+          "file": "assets/js/2a645ebd.b7d9b183.js",
+          "hash": "61bb06eefcd3cfef",
+          "publicPath": "/riverr-openai-documentation/assets/js/2a645ebd.b7d9b183.js"
+        }
+      ]
+    },
+    "8792": {
+      "js": [
+        {
+          "file": "assets/js/main.4d619803.js",
+          "hash": "e3681937deb7f4a2",
+          "publicPath": "/riverr-openai-documentation/assets/js/main.4d619803.js"
+        }
+      ]
+    },
+    "8876": {
+      "js": [
+        {
+          "file": "assets/js/4022851e.ca9bb72d.js",
+          "hash": "d64edbe01c04a48f",
+          "publicPath": "/riverr-openai-documentation/assets/js/4022851e.ca9bb72d.js"
+        }
+      ]
+    },
+    "8900": {
+      "js": [
+        {
+          "file": "assets/js/2f887cab.d78fa2c4.js",
+          "hash": "51a7031ad8a11fc0",
+          "publicPath": "/riverr-openai-documentation/assets/js/2f887cab.d78fa2c4.js"
+        }
+      ]
+    },
+    "9018": {
+      "js": [
+        {
+          "file": "assets/js/e719b43d.21f59e86.js",
+          "hash": "f1ec37e2b4ea9798",
+          "publicPath": "/riverr-openai-documentation/assets/js/e719b43d.21f59e86.js"
+        }
+      ]
+    },
+    "9048": {
+      "js": [
+        {
+          "file": "assets/js/a94703ab.ecb6cc32.js",
+          "hash": "7a5eab3ad10833fe",
+          "publicPath": "/riverr-openai-documentation/assets/js/a94703ab.ecb6cc32.js"
+        }
+      ]
+    },
+    "9092": {
+      "js": [
+        {
+          "file": "assets/js/eb9a8fb8.02178a17.js",
+          "hash": "2b8bd336bd85cc06",
+          "publicPath": "/riverr-openai-documentation/assets/js/eb9a8fb8.02178a17.js"
+        }
+      ]
+    },
+    "9242": {
+      "js": [
+        {
+          "file": "assets/js/1a3c9b31.a012ff45.js",
+          "hash": "6e116efa6422cf2f",
+          "publicPath": "/riverr-openai-documentation/assets/js/1a3c9b31.a012ff45.js"
+        }
+      ]
+    },
+    "9282": {
+      "js": [
+        {
+          "file": "assets/js/49b845f9.524d7598.js",
+          "hash": "56b0bb85cdd418ed",
+          "publicPath": "/riverr-openai-documentation/assets/js/49b845f9.524d7598.js"
+        }
+      ]
+    },
+    "9435": {
+      "js": [
+        {
+          "file": "assets/js/8c863f33.6d56337a.js",
+          "hash": "6f92e537080ffedd",
+          "publicPath": "/riverr-openai-documentation/assets/js/8c863f33.6d56337a.js"
+        }
+      ]
+    },
+    "9647": {
+      "js": [
+        {
+          "file": "assets/js/5e95c892.07b5a026.js",
+          "hash": "bdf155e392a68a2a",
+          "publicPath": "/riverr-openai-documentation/assets/js/5e95c892.07b5a026.js"
+        }
+      ]
+    },
+    "9738": {
+      "js": [
+        {
+          "file": "assets/js/193a5df2.ef78477d.js",
+          "hash": "b00efa5fa67b5bf6",
+          "publicPath": "/riverr-openai-documentation/assets/js/193a5df2.ef78477d.js"
+        }
+      ]
+    },
+    "9809": {
+      "js": [
+        {
+          "file": "assets/js/6e14eda2.d522e2ea.js",
+          "hash": "902ef2edfaa210f5",
+          "publicPath": "/riverr-openai-documentation/assets/js/6e14eda2.d522e2ea.js"
+        }
+      ]
+    },
+    "9937": {
+      "js": [
+        {
+          "file": "assets/js/cc67a7a6.ff8b3a94.js",
+          "hash": "e622b45a7941a02e",
+          "publicPath": "/riverr-openai-documentation/assets/js/cc67a7a6.ff8b3a94.js"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/directives/skip",
+  "title": "skip",
+  "description": "Directs the executor to skip this field or fragment when the if argument is true.",
+  "source": "@site/docs/reference/operations/directives/skip.mdx",
+  "sourceDirName": "reference/operations/directives",
+  "slug": "/reference/operations/directives/skip",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/directives/skip",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/directives/skip.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "skip",
+    "title": "skip"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "include",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/directives/include"
+  },
+  "next": {
+    "title": "createOrder",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/create-order"
+  }
+}

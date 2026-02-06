@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/queries/get-product",
+  "title": "getProduct",
+  "description": "Retrieve a single product by its ID.",
+  "source": "@site/docs/reference/operations/queries/get-product.mdx",
+  "sourceDirName": "reference/operations/queries",
+  "slug": "/reference/operations/queries/get-product",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-product",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/queries/get-product.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "get-product",
+    "title": "getProduct"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "getOrders",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-orders"
+  },
+  "next": {
+    "title": "getProducts",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/queries/get-products"
+  }
+}

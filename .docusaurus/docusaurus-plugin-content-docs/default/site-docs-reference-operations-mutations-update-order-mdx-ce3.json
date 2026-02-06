@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/mutations/update-order",
+  "title": "updateOrder",
+  "description": "Update an existing order (e.g. mark as shipped or cancelled).",
+  "source": "@site/docs/reference/operations/mutations/update-order.mdx",
+  "sourceDirName": "reference/operations/mutations",
+  "slug": "/reference/operations/mutations/update-order",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-order",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/mutations/update-order.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "update-order",
+    "title": "updateOrder"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "deleteShop",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/delete-shop"
+  },
+  "next": {
+    "title": "updateProduct",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/update-product"
+  }
+}
