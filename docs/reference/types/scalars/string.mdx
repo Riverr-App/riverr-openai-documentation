@@ -1,0 +1,58 @@
+---
+id: string
+title: String
+---
+
+
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+
+
+
+
+The `String` scalar type represents textual data, represented as UTF-8 character sequences. The String type is most often used by GraphQL to represent free-form human-readable text.
+
+
+```graphql
+scalar String
+```
+
+
+
+
+
+
+
+
+### Member Of
+
+[`Address`](/docs/reference/types/objects/address.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`AddressInput`](/docs/reference/types/inputs/address-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`Batch`](/docs/reference/types/objects/batch.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BatchItem`](/docs/reference/types/objects/batch-item.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BatchRule`](/docs/reference/types/objects/batch-rule.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BatchRuleInput`](/docs/reference/types/inputs/batch-rule-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`BlankProduct`](/docs/reference/types/objects/blank-product.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BlankProductCategory`](/docs/reference/types/objects/blank-product-category.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BlankProductCategoryWithCollection`](/docs/reference/types/objects/blank-product-category-with-collection.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BlankVariant`](/docs/reference/types/objects/blank-variant.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BlankVariantDetail`](/docs/reference/types/objects/blank-variant-detail.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BlankVariantImage`](/docs/reference/types/objects/blank-variant-image.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`deprecated`](/docs/reference/types/directives/deprecated.mdx)  <Badge class="badge badge--secondary badge--relation" text="directive"/><Bullet />[`Filter`](/docs/reference/types/objects/filter.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`FilterInput`](/docs/reference/types/inputs/filter-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`getShipments`](/docs/reference/operations/queries/get-shipments.mdx)  <Badge class="badge badge--secondary badge--relation" text="query"/><Bullet />[`Image`](/docs/reference/types/objects/image.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ImageInput`](/docs/reference/types/inputs/image-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`InventoryVariant`](/docs/reference/types/objects/inventory-variant.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`Item`](/docs/reference/types/objects/item.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`Link`](/docs/reference/types/objects/link.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`Location`](/docs/reference/types/objects/location.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`LocationInput`](/docs/reference/types/inputs/location-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`Order`](/docs/reference/types/objects/order.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`OrderCreateInput`](/docs/reference/types/inputs/order-create-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`OrderItem`](/docs/reference/types/objects/order-item.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`OrderItemInput`](/docs/reference/types/inputs/order-item-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`Product`](/docs/reference/types/objects/product.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ProductCreateInput`](/docs/reference/types/inputs/product-create-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`ProductUpdateInput`](/docs/reference/types/inputs/product-update-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`SelectedShippingSpeed`](/docs/reference/types/objects/selected-shipping-speed.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`Shipment`](/docs/reference/types/objects/shipment.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ShippingPrice`](/docs/reference/types/objects/shipping-price.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ShippingPriceCountry`](/docs/reference/types/inputs/shipping-price-country.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`ShippingPriceCountryOutput`](/docs/reference/types/objects/shipping-price-country-output.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ShippingPriceInput`](/docs/reference/types/inputs/shipping-price-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`ShippingPriceOutput`](/docs/reference/types/objects/shipping-price-output.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ShippingService`](/docs/reference/types/objects/shipping-service.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ShippingSpeed`](/docs/reference/types/objects/shipping-speed.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ShippingSpeedInput`](/docs/reference/types/inputs/shipping-speed-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`Shop`](/docs/reference/types/objects/shop.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`ShopCreateInput`](/docs/reference/types/inputs/shop-create-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`ShopUpdateInput`](/docs/reference/types/inputs/shop-update-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`specifiedBy`](/docs/reference/types/directives/specified-by.mdx)  <Badge class="badge badge--secondary badge--relation" text="directive"/><Bullet />[`User`](/docs/reference/types/objects/user.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`Variant`](/docs/reference/types/objects/variant.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`VariantInput`](/docs/reference/types/inputs/variant-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`VariantMapping`](/docs/reference/types/objects/variant-mapping.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`VariantMappingInput`](/docs/reference/types/inputs/variant-mapping-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`VariantProperty`](/docs/reference/types/objects/variant-property.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`VariantPropertyInput`](/docs/reference/types/inputs/variant-property-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/>

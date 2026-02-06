@@ -1,0 +1,62 @@
+---
+id: boolean
+title: Boolean
+---
+
+
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+
+
+
+
+The `Boolean` scalar type represents `true` or `false`.
+
+
+```graphql
+scalar Boolean
+```
+
+
+
+
+
+
+
+
+### Returned By
+
+[`deleteProduct`](/docs/reference/operations/mutations/delete-product.mdx)  <Badge class="badge badge--secondary badge--relation" text="mutation"/><Bullet />[`deleteShop`](/docs/reference/operations/mutations/delete-shop.mdx)  <Badge class="badge badge--secondary badge--relation" text="mutation"/>
+
+### Member Of
+
+[`BatchItem`](/docs/reference/types/objects/batch-item.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BatchRule`](/docs/reference/types/objects/batch-rule.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`BatchRuleInput`](/docs/reference/types/inputs/batch-rule-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`getOrders`](/docs/reference/operations/queries/get-orders.mdx)  <Badge class="badge badge--secondary badge--relation" text="query"/><Bullet />[`include`](/docs/reference/operations/directives/include.mdx)  <Badge class="badge badge--secondary badge--relation" text="directive"/><Bullet />[`Order`](/docs/reference/types/objects/order.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`OrderCreateInput`](/docs/reference/types/inputs/order-create-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`OrderItem`](/docs/reference/types/objects/order-item.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`OrderItemInput`](/docs/reference/types/inputs/order-item-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`OrderUpdateInput`](/docs/reference/types/inputs/order-update-input.mdx)  <Badge class="badge badge--secondary badge--relation" text="input"/><Bullet />[`skip`](/docs/reference/operations/directives/skip.mdx)  <Badge class="badge badge--secondary badge--relation" text="directive"/><Bullet />[`User`](/docs/reference/types/objects/user.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/><Bullet />[`Variant`](/docs/reference/types/objects/variant.mdx)  <Badge class="badge badge--secondary badge--relation" text="object"/>

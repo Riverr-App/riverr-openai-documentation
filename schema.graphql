@@ -1,0 +1,632 @@
+type Address {
+  id: ID
+  name: String
+  address1: String
+  address2: String
+  city: String
+  state: String
+  zip: String
+  country: String
+  countryCode: String
+  phone: String
+  formattedAddress: String
+}
+
+type Batch {
+  id: ID!
+  name: String
+  uid: String!
+  enterpriseId: String!
+  createdAt: Timestamp
+  updatedAt: Timestamp
+  itemsCount: Int
+  orderIds: [String!]
+  orderItemIds: [String!]
+  itemIds: [String!]
+  fulfilledItems: [String!]
+  batchedScreen: String
+  batchItems: [BatchItem!]
+  locationId: String
+}
+
+type BatchItem {
+  id: ID!
+  uid: String!
+  enterpriseId: String!
+  customer: String
+  batchedScreen: String
+  orderId: String!
+  platformOrderId: String!
+  platformOrderItemId: String!
+  fulfilled: Boolean
+  orderItemId: String!
+  platformId: String!
+  productId: String!
+  shopId: String!
+  index: Int
+  printOnDemand: Boolean
+  images: [Image!]
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+type BatchRule {
+  id: ID!
+  name: String!
+  schedule: String!
+  timezone: String!
+  active: Boolean
+  team: String
+  locationId: String
+  filters: [Filter!]
+  from: Int
+  to: Int
+  limit: Int
+  order: String
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+input BatchRuleInput {
+  name: String!
+  schedule: String!
+  timezone: String!
+  active: Boolean!
+  team: String
+  filters: [FilterInput!]
+  from: Int
+  to: Int
+  limit: Int
+  order: String
+}
+
+type BlankProduct {
+  id: ID!
+  name: String!
+  uid: String
+  enterpriseId: String
+  createdAt: Timestamp
+  updatedAt: Timestamp
+  description: String
+  supplierName: String!
+  supplierId: String!
+  brand: String
+}
+
+type BlankProductCategoryWithCollection {
+  id: ID!
+  collectionName: String
+  name: String!
+  enterpriseId: String!
+  uid: String!
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+type BlankProductCategory {
+  id: ID!
+  name: String!
+  enterpriseId: String!
+  uid: String!
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+type BlankVariant {
+  id: ID!
+  blankProductId: String!
+  color: String
+  colorCode: String
+  gtin: String
+  size: String
+  style: String
+  weight: String
+  description: String
+  images: [BlankVariantImage!]
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+type BlankVariantDetail {
+  id: ID!
+  blankProductId: String!
+  name: String!
+  color: String
+  colorCode: String
+  gtin: String
+  size: String
+  style: String
+  weight: String
+  description: String
+  images: [BlankVariantImage!]
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+enum FilterId {
+  Colors
+  Sizes
+  Shops
+  Countries
+  Platforms
+  Placements
+  Styles
+  Orders
+  Images
+  ProductGroup
+  ShippingService
+  DecorationMethods
+  Tags
+}
+
+type Filter {
+  id: ID!
+  values: [String!]
+}
+
+input FilterInput {
+  id: ID!
+  values: [String!]!
+}
+
+type Image {
+  id: ID
+  url: String!
+  name: String
+  uid: String
+  enterpriseId: String
+  placement: String
+  type: String
+}
+
+type BlankVariantImage {
+  id: ID
+  blankVariantId: String
+  type: String
+  url: String
+  color: String
+}
+
+enum OrderDirection {
+  asc
+  desc
+}
+
+enum Mapped {
+  mapped
+  unMapped
+  partial
+}
+
+input ShopCreateInput {
+  name: String!
+  url: String
+}
+
+input ShopUpdateInput {
+  name: String
+  url: String
+}
+
+input OrderCreateInput {
+  orderNumber: String!
+  shopId: String!
+  cancelled: Boolean
+  shipped: Boolean
+  shippingCost: Float
+  shippingAddress: AddressInput!
+  orderItems: [OrderItemInput!]!
+}
+
+input OrderUpdateInput {
+  cancelled: Boolean
+  shipped: Boolean
+}
+
+input OrderItemInput {
+  name: String
+  productId: String!
+  variantId: String!
+  platformOrderItemId: String
+  ignored: Boolean
+  discount: Float
+  price: Float!
+  tax: Float
+  quantity: Int!
+}
+
+input AddressInput {
+  name: String
+  address1: String
+  address2: String
+  city: String
+  state: String
+  zip: String
+  country: String
+  countryCode: String
+  phone: String
+}
+
+input ProductCreateInput {
+  title: String!
+  description: String
+  shopId: String!
+  images: [ImageInput!]
+  variants: [VariantInput!]
+}
+
+input ProductUpdateInput {
+  title: String
+  description: String
+  images: [ImageInput!]
+  variants: [VariantInput!]
+}
+
+input VariantInput {
+  sku: String
+  productId: String
+  price: Float
+  properties: [VariantPropertyInput!]
+}
+
+input VariantPropertyInput {
+  id: String
+  name: String
+  value: String
+}
+
+input VariantMappingInput {
+  blankProductId: String
+  blankVariantId: String
+  productId: String
+  sku: String
+  placements: [String!]
+  images: [ImageInput!]
+}
+
+input ImageInput {
+  url: String!
+  name: String
+  placement: String
+  type: String
+}
+
+input TimestampInput {
+  _seconds: Int!
+  _nanoseconds: Int!
+}
+
+type Stock {
+  commited: Int
+  on_hand: Int
+  required: Int
+  incoming: Int
+}
+
+type InventoryVariant {
+  id: ID!
+  blankVariantId: String!
+  blankProductId: String!
+  color: String
+  size: String
+  name: String
+  gtin: String
+  primaryImage: String
+  productId: String
+  productName: String
+  style: String
+  supplierId: String
+  supplierName: String
+  stock: Stock!
+  createdAt: Timestamp
+  updatedAt: String
+}
+
+type Item {
+  id: ID!
+  name: String
+  uid: String!
+  enterpriseId: String!
+  quantity: Int!
+  customer: String
+  orderId: String!
+  orderItemId: String!
+  platformOrderId: String!
+  productId: String
+  orderNumber: String
+  shopId: String
+  price: Int
+  blankProduct: BlankProduct!
+  blankVariant: BlankVariant!
+  createdAt: Timestamp
+  updatedAt: Timestamp
+  images: [Image!]
+  placements: [String!]
+  platformName: String
+  shopName: String
+  country: String
+  locationId: String
+}
+
+type ItemWithInventory {
+  items: [Item!]
+  itemsCount: Int
+  inventory: [InventoryVariant!]
+}
+
+type Location {
+  id: ID!
+  name: String!
+  apiKey: String!
+  uid: String!
+  enterpriseId: String!
+  createdAt: Timestamp!
+  updatedAt: Timestamp!
+  addressId: String
+}
+
+input LocationInput {
+  id: ID
+  name: String!
+  addressId: String
+}
+
+type Mutation {
+  """Create a new shop."""
+  createShop(input: ShopCreateInput!): Shop!
+
+  """Update an existing shop's details."""
+  updateShop(id: ID!, input: ShopUpdateInput!): Shop!
+
+  """Delete a shop by its ID. Returns true if successful."""
+  deleteShop(id: ID!): Boolean!
+
+  """Create a new order."""
+  createOrder(input: OrderCreateInput!): Order!
+
+  """Update an existing order (e.g. mark as shipped or cancelled)."""
+  updateOrder(id: ID!, input: OrderUpdateInput!): Order!
+
+  """Create a new product with images and variants."""
+  createProduct(input: ProductCreateInput!): Product!
+
+  """Update an existing product."""
+  updateProduct(id: ID!, input: ProductUpdateInput!): Product!
+
+  """Delete a product by its ID. Returns true if successful."""
+  deleteProduct(id: ID!): Boolean!
+}
+
+type Order {
+  id: ID!
+  platformOrderId: String!
+  uid: String
+  enterpriseId: String
+  shopId: String
+  shopName: String
+  orderNumber: String
+  platformId: String
+  currencyCode: String
+  mapped: String
+  cancelled: Boolean
+  shipped: Boolean
+  draft: Boolean
+  totalTax: Float
+  totalDiscount: Float
+  totalPrice: Float
+  shippingCost: Float
+  grandTotal: Float
+  createdAt: Timestamp
+  updatedAt: Timestamp
+  shippingAddress: Address
+  orderItems: [OrderItem!]
+}
+
+type OrderItem {
+  id: ID!
+  name: String
+  uid: String
+  enterpriseId: String
+  orderId: String
+  productId: String
+  platformId: String
+  shopId: String
+  variantId: String
+  platformOrderId: String
+  platformOrderItemId: String
+  cancelled: Boolean
+  shipped: Boolean
+  draft: Boolean
+  ignored: Boolean
+  purchaseOrder: Boolean
+  discount: Float
+  price: Float
+  subtotal: Float
+  tax: Float
+  total: Float
+  index: Int
+  variant: Variant
+  purchaseOrderData: VariantMapping
+  image: Image
+}
+
+type Product {
+  id: ID
+  platformProductId: String
+  title: String
+  description: String
+  shopId: String
+  images: [Image]
+  variants: [Variant]
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+type Query {
+  """Retrieve a single shop by its ID."""
+  getShop(id: ID!): Shop!
+
+  """Retrieve all shops associated with the current enterprise."""
+  getAllShops: [Shop!]!
+
+  """Retrieve a single order by its ID."""
+  getOrder(id: ID!): Order!
+
+  """
+  Retrieve a list of orders, optionally filtered by shop, status, or date range.
+  """
+  getOrders(shopId: ID, shipped: Boolean, cancelled: Boolean, createdAfter: TimestampInput, updatedAfter: TimestampInput, limit: Int): [Order!]!
+
+  """Retrieve a single product by its ID."""
+  getProduct(id: ID!): Product!
+
+  """Retrieve a list of products, optionally filtered by shop."""
+  getProducts(shopId: ID, limit: Int): [Product!]!
+
+  """Retrieve shipment details for a specific order."""
+  getShipment(orderId: ID!): Shipment!
+
+  """Retrieve a list of shipments, filtered by various criteria."""
+  getShipments(shopId: ID, orderIds: [ID!], status: String, carrier: String, limit: Int): [Shipment!]!
+
+  """Retrieve a list of available blank products (variants/details)."""
+  getBlankProducts(limit: Int): [BlankVariantDetail!]
+}
+
+type Link {
+  id: String!
+  url: String!
+}
+
+type Shipment {
+  id: ID!
+  orderId: String!
+  trackingCode: String!
+  carrierName: String!
+  carrierService: String!
+  createdAt: Timestamp
+}
+
+input ShippingPriceCountry {
+  code: String
+  name: String
+  primaryPrice: Float
+  secondaryPrice: Float
+}
+
+input ShippingPriceInput {
+  name: String!
+  countries: [ShippingPriceCountry!]!
+}
+
+type ShippingPriceCountryOutput {
+  code: String
+  name: String
+  primaryPrice: Float
+  secondaryPrice: Float
+}
+
+type ShippingPrice {
+  id: ID!
+  name: String
+  countries: [ShippingPriceCountryOutput!]!
+}
+
+type ShippingPriceOutput {
+  id: ID!
+  createdAt: Timestamp
+  updatedAt: Timestamp
+  name: String
+  countries: [ShippingPriceCountryOutput!]!
+}
+
+type ShippingSpeed {
+  id: ID!
+  name: String!
+  platformCarrierId: String!
+  platformId: String!
+  services: [ShippingService!]
+}
+
+type ShippingService {
+  id: ID!
+  name: String!
+}
+
+type ShippingUpgrade {
+  orderId: ID!
+  id: ID!
+}
+
+type SelectedShippingSpeed {
+  id: ID!
+  carrierId: String
+  serviceId: String
+  createdAt: Timestamp
+  updatedAt: Timestamp
+  carrierName: String
+  packageId: String
+  platformId: String
+}
+
+input ShippingSpeedInput {
+  id: ID!
+  carrierId: String!
+  serviceId: String!
+  carrierName: String!
+  packageId: String
+  platformId: String
+}
+
+type Shop {
+  id: ID!
+  name: String!
+  platformId: String!
+  platformName: String!
+  platformShopId: String!
+  uid: String!
+  enterpriseId: String!
+  url: String
+}
+
+type Timestamp {
+  _seconds: Int!
+  _nanoseconds: Int!
+}
+
+type User {
+  uid: ID!
+  displayName: String!
+  enterpriseId: String!
+  photoURL: String
+  isEnterpriseAdmin: Boolean
+  createdAt: Timestamp
+  updatedAt: Timestamp
+}
+
+type Variant {
+  id: ID!
+  sku: String
+  productId: String
+  price: Float
+  deleted: Boolean
+  properties: [VariantProperty]
+}
+
+type VariantProperty {
+  id: String
+  name: String
+  value: String
+}
+
+type VariantMapping {
+  id: ID!
+  blankProductId: String
+  blankVariantId: String
+  mapped: String
+  productId: String
+  sku: String
+  placements: [String!]
+  images: [Image!]
+  gtin: String
+}
