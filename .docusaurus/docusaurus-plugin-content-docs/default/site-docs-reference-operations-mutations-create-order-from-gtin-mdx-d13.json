@@ -1,0 +1,27 @@
+{
+  "id": "reference/operations/mutations/create-order-from-gtin",
+  "title": "createOrderFromGtin",
+  "description": "Create a new order using GTIN (Product ID).",
+  "source": "@site/docs/reference/operations/mutations/create-order-from-gtin.mdx",
+  "sourceDirName": "reference/operations/mutations",
+  "slug": "/reference/operations/mutations/create-order-from-gtin",
+  "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/create-order-from-gtin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/operations/mutations/create-order-from-gtin.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "create-order-from-gtin",
+    "title": "createOrderFromGtin"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "skip",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/directives/skip"
+  },
+  "next": {
+    "title": "createOrder",
+    "permalink": "/riverr-openai-documentation/docs/reference/operations/mutations/create-order"
+  }
+}

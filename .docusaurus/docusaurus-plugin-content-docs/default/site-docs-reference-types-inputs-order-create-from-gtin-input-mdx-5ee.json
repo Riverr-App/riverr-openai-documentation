@@ -1,0 +1,27 @@
+{
+  "id": "reference/types/inputs/order-create-from-gtin-input",
+  "title": "OrderCreateFromGtinInput",
+  "description": "No description",
+  "source": "@site/docs/reference/types/inputs/order-create-from-gtin-input.mdx",
+  "sourceDirName": "reference/types/inputs",
+  "slug": "/reference/types/inputs/order-create-from-gtin-input",
+  "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/order-create-from-gtin-input",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference/types/inputs/order-create-from-gtin-input.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "order-create-from-gtin-input",
+    "title": "OrderCreateFromGtinInput"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "LocationInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/location-input"
+  },
+  "next": {
+    "title": "OrderCreateInput",
+    "permalink": "/riverr-openai-documentation/docs/reference/types/inputs/order-create-input"
+  }
+}
