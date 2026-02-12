@@ -1,0 +1,96 @@
+---
+id: order-create-from-gtin-input
+title: OrderCreateFromGtinInput
+---
+
+
+
+
+export const Bullet = () => <><span style={{ fontWeight: 'normal', fontSize: '.5em', color: 'var(--ifm-color-secondary-darkest)' }}>&nbsp;●&nbsp;</span></>
+
+export const SpecifiedBy = (props) => <>Specification<a className="link" style={{ fontSize:'1.5em', paddingLeft:'4px' }} target="_blank" href={props.url} title={'Specified by ' + props.url}>⎘</a></>
+
+export const Badge = (props) => <><span className={props.class}>{props.text}</span></>
+
+import { useState } from 'react';
+
+export const Details = ({ dataOpen, dataClose, children, startOpen = false }) => {
+  const [open, setOpen] = useState(startOpen);
+  return (
+    <details {...(open ? { open: true } : {})} className="details" style={{ border:'none', boxShadow:'none', background:'var(--ifm-background-color)' }}>
+      <summary
+        onClick={(e) => {
+          e.preventDefault();
+          setOpen((open) => !open);
+        }}
+        style={{ listStyle:'none' }}
+      >
+      {open ? dataOpen : dataClose}
+      </summary>
+      {open && children}
+    </details>
+  );
+};
+
+
+
+
+
+
+
+
+No description
+
+
+```graphql
+input OrderCreateFromGtinInput {
+  orderNumber: String!
+  shopId: String!
+  cancelled: Boolean
+  shipped: Boolean
+  shippingCost: Float
+  shippingAddress: AddressInput!
+  orderItems: [OrderItemGtinInput!]!
+}
+```
+
+
+
+
+### Fields
+
+#### [<code style={{ fontWeight: 'normal' }}>OrderCreateFromGtinInput.<b>orderNumber</b></code>](#)<Bullet />[<code style={{ fontWeight: 'normal' }}><b>String!</b></code>](/docs/reference/types/scalars/string.mdx) <Badge class="badge badge--secondary badge--non_null" text="non-null"/> <Badge class="badge badge--secondary " text="scalar"/> 
+
+
+
+#### [<code style={{ fontWeight: 'normal' }}>OrderCreateFromGtinInput.<b>shopId</b></code>](#)<Bullet />[<code style={{ fontWeight: 'normal' }}><b>String!</b></code>](/docs/reference/types/scalars/string.mdx) <Badge class="badge badge--secondary badge--non_null" text="non-null"/> <Badge class="badge badge--secondary " text="scalar"/> 
+
+
+
+#### [<code style={{ fontWeight: 'normal' }}>OrderCreateFromGtinInput.<b>cancelled</b></code>](#)<Bullet />[<code style={{ fontWeight: 'normal' }}><b>Boolean</b></code>](/docs/reference/types/scalars/boolean.mdx) <Badge class="badge badge--secondary " text="scalar"/> 
+
+
+
+#### [<code style={{ fontWeight: 'normal' }}>OrderCreateFromGtinInput.<b>shipped</b></code>](#)<Bullet />[<code style={{ fontWeight: 'normal' }}><b>Boolean</b></code>](/docs/reference/types/scalars/boolean.mdx) <Badge class="badge badge--secondary " text="scalar"/> 
+
+
+
+#### [<code style={{ fontWeight: 'normal' }}>OrderCreateFromGtinInput.<b>shippingCost</b></code>](#)<Bullet />[<code style={{ fontWeight: 'normal' }}><b>Float</b></code>](/docs/reference/types/scalars/float.mdx) <Badge class="badge badge--secondary " text="scalar"/> 
+
+
+
+#### [<code style={{ fontWeight: 'normal' }}>OrderCreateFromGtinInput.<b>shippingAddress</b></code>](#)<Bullet />[<code style={{ fontWeight: 'normal' }}><b>AddressInput!</b></code>](/docs/reference/types/inputs/address-input.mdx) <Badge class="badge badge--secondary badge--non_null" text="non-null"/> <Badge class="badge badge--secondary " text="input"/> 
+
+
+
+#### [<code style={{ fontWeight: 'normal' }}>OrderCreateFromGtinInput.<b>orderItems</b></code>](#)<Bullet />[<code style={{ fontWeight: 'normal' }}><b>[OrderItemGtinInput!]!</b></code>](/docs/reference/types/inputs/order-item-gtin-input.mdx) <Badge class="badge badge--secondary badge--non_null" text="non-null"/> <Badge class="badge badge--secondary " text="input"/> 
+
+
+
+
+
+
+
+### Member Of
+
+[`createOrderFromGtin`](/docs/reference/operations/mutations/create-order-from-gtin.mdx)  <Badge class="badge badge--secondary badge--relation" text="mutation"/>
