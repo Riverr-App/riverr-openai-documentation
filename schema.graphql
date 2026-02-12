@@ -296,6 +296,28 @@ input TimestampInput {
   _nanoseconds: Int!
 }
 
+input OrderCreateFromGtinInput {
+  orderNumber: String!
+  shopId: String!
+  cancelled: Boolean
+  shipped: Boolean
+  shippingCost: Float
+  shippingAddress: AddressInput!
+  orderItems: [OrderItemGtinInput!]!
+}
+
+input OrderItemGtinInput {
+  name: String
+  gtin: String!
+  platformOrderItemId: String
+  ignored: Boolean
+  discount: Float
+  price: Float
+  tax: Float
+  quantity: Int!
+  images: [ImageInput!]
+}
+
 type Stock {
   commited: Int
   on_hand: Int
@@ -395,6 +417,9 @@ type Mutation {
 
   """Delete a product by its ID. Returns true if successful."""
   deleteProduct(id: ID!): Boolean!
+
+  """Create a new order using GTIN (Product ID)."""
+  createOrderFromGtin(input: OrderCreateFromGtinInput!): Order!
 }
 
 type Order {
